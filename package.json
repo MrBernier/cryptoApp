@@ -1,0 +1,31 @@
+{
+  "name": "cryptoapp",
+  "version": "1.0.0",
+  "description": "Cryptocurrency tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrBernier/cryptoApp.git"
+  },
+  "keywords": [
+    "crypto;",
+    "currency",
+    "cryptocurrency",
+    "tracking"
+  ],
+  "author": "MrBernier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrBernier/cryptoApp/issues"
+  },
+  "homepage": "https://github.com/MrBernier/cryptoApp#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "forever": "^4.0.3",
+    "minimatch": "^9.0.3",
+    "sqlite3": "^5.1.6"
+  }
+}
